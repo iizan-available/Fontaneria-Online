@@ -1,1 +1,2 @@
-<>
+print('from action
+print
