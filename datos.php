@@ -6,4 +6,4 @@
     <label for = "cont">Escriu el teu nom:</label><br>
     <input type = "text" id = "cont" name = "cont"><br>
 
-
+a
