@@ -1,7 +1,16 @@
+<?php
+
+$titpag = "Servicios Fontaneria de Giuseppe";
+
+?>
+<!DOCTYPE html>
 <html>
-
-<h1>Bienvenido a Fontanerias Canunades</h1>
-
-<h1>holi<h2>
-  
+    <head>
+        <title>Fontaneria Giuseppe</title>
+    </head>
+    <body>
+    <header>
+        <h1>Bienvenidos a la Fontaneria de Giuseppe<h1>
+    </header>
+    </body>
 </html>
