@@ -1,4 +1,7 @@
-<from action = "C:\xampp\htdocs\Fontanetia" method = "post">
+<!DOCTYPE html>
+<html>
+<from action = "C:\xampp\htdocs\Fontanetia\contacto.php" method = "post">
+
     <label for = "user">Introdueix el teu nom d'usuari:</label><br>
     <input type = "text" id = "user" name = "user"><br>
    
@@ -7,3 +10,4 @@
 
     <input type="submit" value = "Submit">
 </from>
+</html>
