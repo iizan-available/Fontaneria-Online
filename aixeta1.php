@@ -8,7 +8,7 @@
     }
     </style>
     <body>
-        <img src='\Fontanetia\img\leda.png' alt="No s'ha pogut carregar l'imatge">
+        <img src='\Fontaneria-Online\img\leda.png' alt="No s'ha pogut carregar l'imatge">
     </body>
 </html>
 <form action="errorpag.php" class="btn">
