@@ -6,8 +6,9 @@
         </style>
         <div style="background-color:#6b2a2b; padding: 10px; text-align: center;">
             <a href="Tu Fontaneria de Confianza" style="color: white; text-decoration: none;">
-                Tu Fontaneria<br>de Confianza
+                Tu Fontaneria de Confianza
             </a>
+        </div>
     </head>
     <body>
     <h2>Nuestros Productos:<h2>
