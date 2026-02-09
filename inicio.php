@@ -49,10 +49,6 @@
     <h2>Nuestros Productos:<h2>
     <div style="display: flex; justify-content: center; gap: 30px;">
         <?php include('plantillas/paixeta1.php')?> 
-        <?php include('plantillas/paixeta2.php')?>
-        <?php include('plantillas/paixeta3.php')?>
-        <?php include('plantillas/paixeta4.php')?>
-        <?php include('plantillas/paixeta5.php')?>
     </div>
     </body>
 
