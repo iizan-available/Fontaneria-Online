@@ -27,7 +27,9 @@
     </head>
     <body>
             <div class="producto">
+                <a href="aixeta1.php">
                 <img src='img/leda.png' alt="No s'ha pogut carregar l'imatge" width=300>
+                </a>
                 <h1>Fregadero Leda Syan<h1>
                 <h2>Precio: 267€</h2>
             </div>

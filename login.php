@@ -10,7 +10,7 @@ if (isset($_POST['user']) && isset($_POST['pass'])) {
 
     if ($usuario === "admin" && $password === "1234") {
         $_SESSION['usuario'] = $usuario;
-        $_SESSION['login'] = true;
+        $_SESSION['datos'] = true;
 
         header("Location: dashboard.php");
         exit();
