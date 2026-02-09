@@ -1,1 +1,3 @@
-<h1>Aquest producte esta fora d'estoc</h1>
+<?php include 'cabecera.php'; ?>
+
+<h1>ERROR 404</h1>

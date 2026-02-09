@@ -1,3 +1,5 @@
+<?php include 'cabecera.php'; ?>
+
 <form action = Inicio.php class="btn">
     <label for = "user">Introdueix el teu nom d'usuari:</label><br>
     <input type = "text" id = "user" name = "user"><br>
@@ -12,6 +14,6 @@
 .btn {
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 100px;
 }
 </style>
