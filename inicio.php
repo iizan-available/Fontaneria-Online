@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<?php include('cabecera.php')?>
+<?php include('cabecera.php')
+
+?>
 <html>
     <head>
         <style>
