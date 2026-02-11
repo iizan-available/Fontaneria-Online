@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $titpag; ?></title>
     <style>
+
+        header {
+            display: grid;
+            background-color:#6b2a2b; 
+            padding: 10px; 
+            text-align: left;
+        }
+
        .telefono {
             margin-left: 60px;
        }
@@ -75,7 +83,7 @@
                 641 79 64 28
             </a>
         <h1>Bienvenidos a la Fontaneria de Giuseppe<h1>
-        <a href="Inicio.php">
+        <a href="inicio.php">
             <button type="button" class="button button1">Inicio</button> 
         </a>
         <a href="nosotros.php">
