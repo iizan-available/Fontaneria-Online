@@ -1,8 +1,3 @@
-<?php
-
-
-
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $titpag; ?></title>
     <style>
+
+        header {
+            display: grid;
+            background-color:#6b2a2b; 
+            padding: 10px; 
+            text-align: left;
+        }
+
        .telefono {
             margin-left: 60px;
        }
@@ -71,16 +74,16 @@
     </head>
     <header>
         <div style="background-color:#6b2a2b; padding: 10px; text-align: left;">
-            <a href="mailto:fontguiseppe@gmail.com" style="color: white; text-decoration: none;">
+            <a href="mailto:fontguiseppe@gmail.com" style="color: white; text-decoration: none; margin-left: 100px;">
             <img src='img/envelope.png' alt="No s'ha pogut carregar l'imatge" width=30>
                 fontguiseppe@gmail.com
             </a>
             <a href="tel:+34977555555" style="color: white; text-decoration: none;" class="telefono"">
             <img src='img/telephone.png' alt="No s'ha pogut carregar l'imatge" width=30>
-                977 55 55 55
+                641 79 64 28
             </a>
         <h1>Bienvenidos a la Fontaneria de Giuseppe<h1>
-        <a href="Inicio.php">
+        <a href="inicio.php">
             <button type="button" class="button button1">Inicio</button> 
         </a>
         <a href="nosotros.php">
