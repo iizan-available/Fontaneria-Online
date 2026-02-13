@@ -50,12 +50,6 @@
         top: -302px;
         left: 100px;
     }
-    .pie{
-        top: 100px;
-    }
 
     </style>
-</html>
-<html class="pie">
-    <?php include 'piedepagina.php'; ?>
 </html>
