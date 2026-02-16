@@ -67,6 +67,7 @@
 <div class="productos">
     <?php include('plantillas/paixeta1.php'); ?>
     <?php include('plantillas/paixeta2.php'); ?>
+    <?php include('plantillas/paixeta3.php'); ?>
 </div>
 
 <?php include('piedepagina.php'); ?>
