@@ -3,92 +3,83 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 ?>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($titpag) ? $titpag : "Fontanería Giuseppe"; ?></title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+<style>
+/* --- Cabecera y barra superior --- */
+header {
+    background-color: #6b2a2b;
+    padding: 15px 40px;
+    color: white;
+}
 
-        header {
-            background-color: #6b2a2b;
-            padding: 15px 40px;
-            color: white;
-        }
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 14px;
+}
 
-        .top-bar {
-            display: flex;
-            align-items: center;
-            gap: 40px;
-            font-size: 14px;
-        }
+.top-bar a {
+    color: white;
+    text-decoration: none;
+}
 
-        .top-bar a {
-            color: white;
-            text-decoration: none;
-        }
+.telefono {
+    margin-left: 20px;
+}
 
-        .telefono {
-            margin-left: 20px;
-        }
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
 
-        .nav-bar {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
+.nav-bar a {
+    text-decoration: none;
+}
 
-        .nav-bar a {
-            text-decoration: none;
-        }
+/* --- Botones de navegación --- */
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+}
 
-        .button {
-            background-color: white;
-            color: black;
-            border: 2px solid black;
-            padding: 10px 22px;
-            cursor: pointer;
-            transition: 0.3s;
-            display: inline-block;
-        }
+.button:hover {
+    background-color: #6b2a2b;
+    color: white;
+}
 
-        .button:hover {
-            background-color: #6b2a2b;
-            color: white;
-        }
+/* Botón Cesta a la derecha */
+.button-cesta {
+    margin-left: auto;
+}
 
-        .button-cesta {
-            margin-left: auto;
-        }
+/* Botón login/logout */
+.inicio-sesion {
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    padding: 8px 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
-        .inicio-sesion {
-            border: 2px solid black;
-            background-color: black;
-            color: black;
-            padding: 8px 18px;
-            text-decoration: none;
-            transition: 0.3s;
-        }
+.inicio-sesion:hover {
+    background-color: #6b2a2b;
+    color: white;
+}
 
-        .inicio-sesion:hover {
-            background-color: #6b2a2b;
-            color: white;
-        }
-
-        h1 {
-            margin-top: 20px;
-        }
-    </style>
-</head>
-
-<body>
+/* Título */
+h1 {
+    margin-top: 20px;
+}
+</style>
 
 <header>
 
@@ -122,4 +113,5 @@ if (session_status() === PHP_SESSION_NONE) {
     </div>
 
 </header>
+
 

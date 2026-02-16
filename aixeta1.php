@@ -10,20 +10,6 @@
     </h4>
     <h4 class="price">
         267€
-    </h4>   
-    <h4 class="desc">
-
-        Es un fregadero de cocina bajo encimera de la línea Leda de la marca Syan, diseñado para integrarse de forma discreta y moderna bajo la encimera de tu cocina.<p>
-
-        📐 Dimensiones y compatibilidad<p>
-
-        Medidas aproximadas: 55,5 cm de ancho x 51,5 cm de fondo.<p>
-
-        Profundidad útil alrededor de 22,5 cm, proporcionando un buen espacio para lavar utensilios y alimentos.<p>
-
-        Recomendado para muebles a partir de 60 cm de ancho.<p>
-
-
     </h4>
     <body>
         <img src='img\leda.png' alt="No s'ha pogut carregar l'imatge"
@@ -55,25 +41,15 @@
     .btn {
         text-align: center;
         position: relative;
+        top: -230px;
         left: 100px;
-        top: -390px;
-        margin-bottom: -250px;
     }
     .a{
         text-align: center;
         position: relative;
-        top: -215px;
+        top: -302px;
         left: 100px;
-    }
-    .desc{
-        text-align: left;
-        position: relative;
-        top: 140px;
-        left: 100px; 
     }
 
     </style>
 </html>
-<html>
-    <?php include 'piedepagina.php'; ?>
-
