@@ -42,6 +42,17 @@ if (!isset($_SESSION['cesta'])) {
         </div>
     <?php endforeach; ?>
 <?php endif; ?>
+<form method="POST">
+    <button type="submit" name="vaciar">Vaciar Cesta</button>
+</form>
+
+<?php
+if (isset($_POST['vaciar'])) {
+    $_SESSION['cesta'] = [];
+    header("Location: cesta.php");
+    exit();
+}
+?>
 
 </body>
 </html>
