@@ -46,6 +46,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['producto'])) {
     <h4 class="price">
         267€
     </h4>
+    <h4 class="desc">
+        📐 Dimensiones y compatibilidad<p>
+
+        Medidas aproximadas: 55,5 cm de ancho x 51,5 cm de fondo.<p>
+
+        Profundidad útil alrededor de 22,5 cm, proporcionando un buen espacio para lavar utensilios y alimentos.<p>
+
+        Recomendado para muebles a partir de 60 cm de ancho.<p>
+
+    </h4>
 
     <img src="img/leda.png" alt="Imagen producto" class="btn" width="450">
 
@@ -81,19 +91,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['producto'])) {
 }
 .btn {
     position: relative;
-    top: -210px;
+    top: -300px;
     left: 100px;
+}
+.desc{
+        text-align: left;
+        position: relative;
+        top: 180px;
+        left: 100px;
 }
 .agregar-form{
     position: relative;
-    top: -260px;
+    top: -170px;
     left: 100px;
 }
 .ir-cesta{
     position: relative;
-    top: -240px;
+    top: -150px;
     left: 100px;
 }
 </style>
 
 </html>
+    <?php include 'piedepagina.php'; ?>
