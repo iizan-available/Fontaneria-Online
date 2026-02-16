@@ -66,6 +66,7 @@
 <h3>Nuestros Productos:</h3>
 <div class="productos">
     <?php include('plantillas/paixeta1.php'); ?>
+    <?php include('plantillas/paixeta2.php'); ?>
 </div>
 
 <?php include('piedepagina.php'); ?>
