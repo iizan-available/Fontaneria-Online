@@ -1,114 +1,125 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Fontaneria Giuseppe</title>
-
-        <meta charset="UTF-8">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $titpag; ?></title>
+    <title><?php echo isset($titpag) ? $titpag : "Fontanería Giuseppe"; ?></title>
+
     <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
         header {
-            display: grid;
-            background-color:#6b2a2b; 
-            padding: 10px; 
-            text-align: left;
+            background-color: #6b2a2b;
+            padding: 15px 40px;
+            color: white;
         }
 
-       .telefono {
-            margin-left: 60px;
-       }
+        .top-bar {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            font-size: 14px;
+        }
 
-       header h1 {
+        .top-bar a {
             color: white;
-       }
-
-       .button {
-            border: none;
-            color: black;
-            padding: 15px 32px;
-            text-align: center;
             text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            transition-duration: 0.4s;
+        }
+
+        .telefono {
+            margin-left: 20px;
+        }
+
+        .nav-bar {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .nav-bar a {
+            text-decoration: none;
+        }
+
+        .button {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 22px;
             cursor: pointer;
-       }
-
-       
-        .button1 {
-            background-color: white;
-            color: black;
-            border: 2px solid black;
+            transition: 0.3s;
+            display: inline-block;
         }
 
-        .button1:hover {
-            background-color: #6b2a2b;
-            color: white;
-        }
-
-        .button2 {
-            background-color: white;
-            color: black;
-            border: 2px solid black;
-        }
-
-        .button2:hover {
-            background-color: #6b2a2b;
-            color: white;
-        }
-
-        .button3 {
-            background-color: white;
-            color: black;
-            border: 2px solid black;
-        }
-
-        .button3:hover {
+        .button:hover {
             background-color: #6b2a2b;
             color: white;
         }
 
         .button-cesta {
-                background-color: white;
-                color: black;
-                border: 2px solid black;
-                margin-left: auto;
+            margin-left: auto;
         }
 
-        .button-cesta:hover {
+        .inicio-sesion {
+            border: 2px solid black;
+            background-color: black;
+            color: black;
+            padding: 8px 18px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .inicio-sesion:hover {
             background-color: #6b2a2b;
             color: white;
         }
 
+        h1 {
+            margin-top: 20px;
+        }
     </style>
+</head>
 
-    </head>
-    <header>
-        <div style="background-color:#6b2a2b; padding: 10px; text-align: left;">
-            <a href="mailto:fontguiseppe@gmail.com" style="color: white; text-decoration: none; margin-left: 100px;">
-            <img src='img/envelope.png' alt="No s'ha pogut carregar l'imatge" width=30>
-                fontguiseppe@gmail.com
-            </a>
-            <a href="tel:+641796428" style="color: white; text-decoration: none;" class="telefono">
-            <img src='img/telephone.png' alt="No s'ha pogut carregar l'imatge" width=30>
-                641 79 64 28
-            </a>
-        <h1>Bienvenidos a la Fontaneria de Giuseppe<h1>
-        <a href="inicio.php">
-            <button type="button" class="button button1">Inicio</button> 
+<body>
+
+<header>
+
+    <!-- Barra superior -->
+    <div class="top-bar">
+        <a href="mailto:fontguiseppe@gmail.com">
+            <img src="img/envelope.png" width="20">
+            fontguiseppe@gmail.com
         </a>
-        <a href="nosotros.php">
-        <button class="button button2">Nosotros</button> 
+
+        <a href="tel:+34641796428" class="telefono">
+            <img src="img/telephone.png" width="20">
+            641 79 64 28
         </a>
-        <a href="contacto.php">
-        <button class="button button3">Contacto</button> 
-        </a>
-        <a href="cesta.php"> 
-        <button class="button button-cesta">Cesta</button>
-        </a>
-    </header>
-    <body>
-    </body>
-</html>
+
+        <?php if (isset($_SESSION["usuario"])): ?>
+            <a href="logout.php" class="inicio-sesion">Cerrar Sesión</a>
+        <?php else: ?>
+            <a href="login.php" class="inicio-sesion">Iniciar Sesión</a>
+        <?php endif; ?>
+    </div>
+
+    <h1>Bienvenidos a la Fontanería de Giuseppe</h1>
+
+    <!-- Navegación -->
+    <div class="nav-bar">
+        <a href="inicio.php" class="button">Inicio</a>
+        <a href="nosotros.php" class="button">Nosotros</a>
+        <a href="contacto.php" class="button">Contacto</a>
+        <a href="cesta.php" class="button button-cesta">Cesta</a>
+    </div>
+
+</header>
+

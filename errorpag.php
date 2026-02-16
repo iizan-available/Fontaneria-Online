@@ -1,9 +1,4 @@
 <?php include 'cabecera.php'; ?>
-    $pass = $_REQUEST["pass"]
-    $user = $_REQUEST["user"]
-
-    print($pass, $user)
-?>
 <style>
     h4 {
         font-size: 36px;
