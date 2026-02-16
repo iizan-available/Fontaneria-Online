@@ -27,9 +27,11 @@
     </head>
     <body>
             <div class="producto">
-                <img src='img/leda.png' alt="No s'ha pogut carregar l'imatge" width=300>
-                <h3>Fregadero Leda Syan<h3>
-                <h4>Precio: 267€</h4>
+                <a href="aixeta2.php">
+                <img src='img/aixeta2.png' alt="No s'ha pogut carregar l'imatge" width=300>
+                </a>
+                <h3>VEVOR Fregadero<h3>
+                <h4>Precio: 95€</h4>
             </div>
     </body>
 </html>

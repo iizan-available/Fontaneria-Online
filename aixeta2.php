@@ -24,7 +24,7 @@
         🧼 Esquinas redondeadas (R10): Facilitan la limpieza y evitan que se acumulen restos de comida en las esquinas.<p>
     </h4>
     <body>
-        <img src='img\leda.png' alt="No s'ha pogut carregar l'imatge"
+        <img src='img\aixeta2.png' alt="No s'ha pogut carregar l'imatge"
         class="btn" width=450>
     </body>
 
@@ -38,7 +38,7 @@
         position: relative;
         left: 560px;
         font-size: 30px;
-        top: 50px;
+        top: 25px;
     }
     .h1{
         position: relative;
@@ -60,13 +60,13 @@
     .a{
         text-align: center;
         position: relative;
-        top: -230px;
+        top: -190px;
         left: 100px;
     }
     .desc{
         text-align: left;
         position: relative;
-        top: 130px;
+        top: 70px;
         left: 100px; 
     }
 
