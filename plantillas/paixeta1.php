@@ -30,8 +30,8 @@
                 <a href="aixeta1.php">
                 <img src='img/leda.png' alt="No s'ha pogut carregar l'imatge" width=300>
                 </a>
-                <h1>Fregadero Leda Syan<h1>
-                <h2>Precio: 267€</h2>
+                <h3>Fregadero Leda Syan<h3>
+                <h4>Precio: 267€</h4>
             </div>
     </body>
 </html>

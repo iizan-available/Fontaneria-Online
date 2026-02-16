@@ -5,11 +5,13 @@
         footer {
             margin-top: 20px;
             display: grid;
+            width: 100%;
         }
 
         .contenidor {
             display: flex;
             justify-content: center; 
+            width: 100%;
         }
 
         h5 {
@@ -33,7 +35,7 @@
     </body>
 
     <footer>
-        <div class=contenidor style="background-color:#6b2a2b; padding: 10px; text-align: left;">
+        <div class=contenidor style="background-color:#6b2a2b; padding: 20px; text-align: left;">
 
             <div class=seccion>
                 <img src='img/yo.jpg' alt="No s'ha pogut carregar l'imatge" width=340>

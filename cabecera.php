@@ -69,6 +69,19 @@
             background-color: #6b2a2b;
             color: white;
         }
+
+        .button-cesta {
+                background-color: white;
+                color: black;
+                border: 2px solid black;
+                margin-left: auto;
+        }
+
+        .button-cesta:hover {
+            background-color: #6b2a2b;
+            color: white;
+        }
+
     </style>
 
     </head>
@@ -78,7 +91,7 @@
             <img src='img/envelope.png' alt="No s'ha pogut carregar l'imatge" width=30>
                 fontguiseppe@gmail.com
             </a>
-            <a href="tel:+34977555555" style="color: white; text-decoration: none;" class="telefono"">
+            <a href="tel:+641796428" style="color: white; text-decoration: none;" class="telefono">
             <img src='img/telephone.png' alt="No s'ha pogut carregar l'imatge" width=30>
                 641 79 64 28
             </a>
@@ -89,8 +102,11 @@
         <a href="nosotros.php">
         <button class="button button2">Nosotros</button> 
         </a>
-        <a href="Contacto.php">
+        <a href="contacto.php">
         <button class="button button3">Contacto</button> 
+        </a>
+        <a href="cesta.php"> 
+        <button class="button button-cesta">Cesta</button>
         </a>
     </header>
     <body>
