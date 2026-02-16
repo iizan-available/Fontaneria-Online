@@ -2,30 +2,26 @@
 <?php include 'cabecera.php'; ?>
 <html>
     <h1 class="h1">
-        <b>Fregadero bajo encimera Leda Syan</b>
+        <b>VEVOR Fregadero de Cocina de Acero Inoxidable</b>
     </h1>
     <h4 class="txt">
-        El fregadero Leda de Syan es un fregadero de cocina de montaje bajo encimera (undermount),<p>
-         diseñado para integrarse de forma discreta y elegante bajo la superficie de tu encimera.
+        Este fregadero está fabricado en acero inoxidable 304 de alta calidad, un material muy usado en cocina<p>
+        por ser resistente, facil de limpiar y su elegancia
     </h4>
     <h4 class="price">
-        267€
+        95€
     </h4>   
     <h4 class="desc">
 
-        Es un fregadero de cocina bajo encimera de la línea Leda de la marca Syan, diseñado para integrarse de forma discreta y moderna bajo la encimera de tu cocina.<p>
+        🛠 Diseño y funcionalidad<p>
 
-        📐 Dimensiones y compatibilidad<p>
+        💧 Amplio espacio de lavado: Las dimensiones internas suelen ser grandes y profundas, permitiendo lavar ollas, sartenes y utensilios voluminosos sin problemas.<p>
 
-        Medidas aproximadas: 55,5 cm de ancho x 51,5 cm de fondo.<p>
+        🧽 Drenaje eficiente: El diseño del fondo con patrón en forma de X o caída suave ayuda a que el agua se evacue rápidamente, evitando acumulaciones.<p>
 
-        Profundidad útil alrededor de 22,5 cm, proporcionando un buen espacio para lavar utensilios y alimentos.<p>
+        🔇 Reducción de ruido: Muchos modelos incluyen almohadillas reductoras de sonido y aislamiento para minimizar el ruido al usar el fregadero.<p>
 
-        Recomendado para muebles a partir de 60 cm de ancho.<p>
-
-        🧱 Diseño y montaje<p>
-
-        Tipo: bajo encimera, lo que significa que queda instalado por debajo de la superficie de trabajo para un acabado más limpio y sin bordes visibles.<p>
+        🧼 Esquinas redondeadas (R10): Facilitan la limpieza y evitan que se acumulen restos de comida en las esquinas.<p>
     </h4>
     <body>
         <img src='img\leda.png' alt="No s'ha pogut carregar l'imatge"
@@ -58,19 +54,19 @@
         text-align: center;
         position: relative;
         left: 100px;
-        top: -460px;
+        top: -410px;
         margin-bottom: -250px;
     }
     .a{
         text-align: center;
         position: relative;
-        top: -283px;
+        top: -230px;
         left: 100px;
     }
     .desc{
         text-align: left;
         position: relative;
-        top: 230px;
+        top: 130px;
         left: 100px; 
     }
 
