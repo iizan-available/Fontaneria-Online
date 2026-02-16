@@ -4,7 +4,7 @@
     <head>
         <style>
 
-            h1 {
+            h2 {
                 padding: 10px; 
                 text-align: justify;
                 margin: 1;
@@ -12,7 +12,7 @@
                 margin-right: 100px;
             }
 
-            h2 {
+            h3 {
                 padding: 10px; 
                 text-align: justify;
                 margin: 1;
@@ -37,7 +37,7 @@
     </head>
     <body>
 
-    <h1>la Història de mi Fontaneria<h1>
+    <h2>la Història de mi Fontaneria<h2>
         <div class="historia">
             <a style="color: black; text-decoration: none; font-size: 15px;">
             Me llamo Giuseppe y llevo más de 15 años trabajando como fontanero, pero mi historia comienza mucho antes. Cuando era niño, perdí a mis padres debido a una fuga en una tubería oxidada que nadie se preocupó por revisar. Fue una tragedia que marcó mi vida, y desde entonces, me prometí a mí mismo que nunca más alguien debería pasar por algo así.<br><br>
@@ -46,7 +46,7 @@
             </a>
         </div>
 
-    <h2>Nuestros Productos:<h2>
+    <h3>Nuestros Productos:<h3>
     <div style="display: flex; justify-content: center; gap: 30px;">
         <?php include('plantillas/paixeta1.php')?> 
     </div>

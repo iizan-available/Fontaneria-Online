@@ -5,13 +5,16 @@
         footer {
             margin-top: 20px;
             display: grid;
-            width: 100%;
         }
 
         .contenidor {
             display: flex;
             justify-content: center; 
             width: 100%;
+        }
+
+        .seccion {
+            margin-left: 0px;
         }
 
         h5 {
