@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['producto'])) {
 </h1>
 
 <h4 class="txt">
-    Es un fregadero de cocina moderno con dos cubetas o “senos” separados,
+    Es un fregadero de cocina moderno con dos cubetas o “senos” separados,<p>
     ideal para lavar platos y preparar alimentos al mismo tiempo.
 </h4>
 

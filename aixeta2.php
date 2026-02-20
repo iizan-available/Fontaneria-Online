@@ -28,9 +28,17 @@
         class="btn" width=450>
     </body>
 
-    <a href="errorpag.php" class= a>
-        <button class="button button2">COMPRAR</button> 
+    <!-- BOTÓN AGREGAR A LA CESTA -->
+    <form method="POST" class="agregar-form">
+        <input type="hidden" name="producto" value="paixeta1">
+        <button type="submit" class="button button2">AGREGAR A LA CESTA</button>
+    </form>
+
+    <!-- BOTÓN IR A LA CESTA -->
+    <a href="cesta.php" class="ir-cesta">
+        <button class="button button2">IR A LA CESTA</button>
     </a>
+
     
     <style>
     .price{
@@ -55,7 +63,7 @@
         position: relative;
         left: 100px;
         top: -410px;
-        margin-bottom: -250px;
+        margin-bottom: -230px;
     }
     .a{
         text-align: center;
@@ -66,8 +74,18 @@
     .desc{
         text-align: left;
         position: relative;
-        top: 70px;
+        top: 190px;
         left: 100px; 
+    }
+    .agregar-form{
+        position: relative;
+        top: -5px;
+        left: 100px;
+    }
+    .ir-cesta{
+        position: relative;
+        top: 10px;
+        left: 100px;
     }
 
     </style>

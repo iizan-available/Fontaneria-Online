@@ -91,13 +91,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['producto'])) {
 }
 .btn {
     position: relative;
-    top: -300px;
+    top: -350px;
     left: 100px;
 }
 .desc{
         text-align: left;
         position: relative;
-        top: 180px;
+        top: 250px;
         left: 100px;
 }
 .agregar-form{
